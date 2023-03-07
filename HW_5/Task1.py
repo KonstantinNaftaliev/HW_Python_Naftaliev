@@ -9,9 +9,9 @@ b = int (input('Введите степень, в которую число во
 
 def stepen(a, b):
     if b == 0:
-        return(1)
+        return 1
     elif b == 1:
-        return(a)
+        return a
     else:
         return a * stepen(a, b -1)
 print(stepen(a, b))
